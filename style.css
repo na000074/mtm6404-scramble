@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.game {
+  width: 500px;
+  max-width: 90%;
+  margin: 50px auto;
+  padding: 30px;
+
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+
+.score {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+.word {
+  font-size: 2.5rem;
+  letter-spacing: 5px;
+  margin: 30px 0;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+input {
+  width: 70%;
+  padding: 12px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 4px;
+
+  background-color: #333;
+  color: white;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+button:disabled {
+  background-color: #aaa;
+  cursor: default;
+}
+
+.pass {
+  margin-top: 20px;
+}
+
+.message {
+  margin-top: 25px;
+  font-weight: bold;
+}
